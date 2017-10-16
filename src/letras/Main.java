@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
-			//generarCasoFatiga();
+			// generarCasoFatiga();
 			LetrasExtremas extremas = new LetrasExtremas("extremas.in");
 			extremas.resolver();
 		} catch (IOException e) {
